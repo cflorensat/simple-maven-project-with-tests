@@ -19,7 +19,7 @@
  * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWAREE.
+ * THE SOFTWARE.
  */
 
 package test;
@@ -33,7 +33,7 @@ class Base {
         double r = Math.random();
         if (r < 0.1) {
             fail("oops");
-        } else if (r < 0.2) {
+        } else if (r < 0.11) {
             throw new AssumptionViolatedException("skipping");
         }
     }
